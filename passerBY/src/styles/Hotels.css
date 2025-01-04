@@ -1,0 +1,44 @@
+/* File: src/styles/Hotels.css */
+
+.hotels-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .hotel-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hotel-item {
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .hotel-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .no-results {
+    color: #888;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  

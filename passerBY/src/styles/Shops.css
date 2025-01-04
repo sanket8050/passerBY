@@ -1,0 +1,35 @@
+/* File: src/styles/Shops.css */
+
+.favorite-btn {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .favorite-btn:hover {
+    background-color: #005f7a;
+  }
+  
+  .favorite-btn.favorited {
+    background-color: #f44336;
+  }
+  
+  .favorites-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+  
+  .favorite-item {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
